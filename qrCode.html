@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        .box{
+            width: 320px;
+            height: 497px;
+            background-color: white;
+            border-radius: 20px ;
+            display: flex;
+            flex-direction: column;
+            
+            margin: 152px 560px 152px 560px;
+            
+        }
+        .image{
+            max-width: 100%;
+        }
+
+        
+        .image-box{
+            height: 288px;
+            width: 288px;
+            
+            border-radius: 10px;
+            overflow: hidden;
+            
+            margin-top: 16px;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-bottom: 24px;
+           
+
+        }
+        .header{
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            font-family: outfit;
+            font-weight: 700;
+            font-size: 12px;
+            text-align: center;
+            height: 56px;
+            width: 288px;
+            
+        }
+        .paragraph{
+            margin-left: 32px;
+            margin-right: 32px;
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 15px;
+            font-family: outfit;
+            font-weight: 400;
+            color: #7D889E;
+            
+            
+        }
+
+    </style>
+</head>
+<body style="background-color: #d5e1ef;">
+    
+    <div class="box">
+        
+        <div class="image-box"><img class="image" src="qr-code-component/images/image-qr-code.png" alt=""></div>
+        <div class="header"><h1>improve your front-end skills by building projects</h1></div>
+        <div class="paragraph"><p> Scan the QR code to visit Frontend Mentor and take your coding skills  to the next level</p></div>
+    </div>
+</body>
+</html>
